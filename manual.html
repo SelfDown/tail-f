@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>tail for Windows Manual</title>
+</head>
+<body>
+<br />
+<CENTER><font face="Verdana" style="font-size: 16pt"><B>tail for Windows Manual</B></font><br /><br />
+<font face="Verdana" style="font-size: 12pt"><i>&copy; <a href="http://www.TriSunSoft.com/" target="_blank">TSSI</a></i></font></CENTER>
+<br />
+<hr color="#000080"><br />
+<font face="Verdana" style="font-size: 10pt">   
+
+<b><font style="font-size: 12pt">Synopsis</font></b><br /><br />
+
+tail [-f] [-c|-b|-k|-l|-m|-n [+/-]num] [file]<br />
+tail +[num]c|b|k|l|m|n[f] [file]<br />
+tail -[num]c|b|k|l|m|n[f] [file]<br /><br />
+
+<b><font style="font-size: 12pt">Description</font></b><br /><br />
+
+tail DOS command is used to display last lines of a file.<br />
+Calling tail without options will display the last 10 lines of the specified file. This is useful for seeing the most recent entries in log files or any file where new information is appended.<br /><br />
+
+<b><font style="font-size: 12pt">Options</font></b><br /><br />
+
+All tail options except -f are mutually exclusive. You can only specify one of them.<br /><br />
+tail accepts the following options:<br /><br />
+<B>-b [+/-]num></B><br />
+<B>+/-[num]b</B><br />
+begins displaying the file at a location determined by num. If num is preceded by a minus sign (-)or no sign at all, tail displays the last num blocks of the file. If num is preceded by a plus sign (+), tail displays the file beginning with the numth block. A block is 512 bytes. As a result, -b num is equivalent to -c num x 512.<br /><br />
+If num is not specified, tail behaves as if num was 10.<br /><br />
+
+<B>-c [+/-]num</b><br />
+<B>+/-[num]c</B><br />
+is similar to the b option, but num is in bytes rather than blocks.<br /><br />
+
+<B>-f</B><br />
+<b>f</b><br />
+monitors a file as it grows. Every two seconds, tail wakes up and displays any new data at the end of the file. This flag is ignored if reading from the standard input and standard input is a pipe.<br /><br />
+
+<B>-k [+/-]num</b><br />
+<B>+/-[num]k</b><br />
+is similar to the b option, but num is in kilobytes (1024 bytes) rather than blocks. Thus, -k num is equivalent to -c num x 1024.<br /><br />
+
+<b>-l [+/-]num</b><br />
+<b>+/-[num]l</b><br />
+is similar to the b option, but num is in lines rather than blocks.<br /><br />
+
+<b>-m [+/-]num</b><br />
+<b>+/-[num]m</b><br />
+is similar to the b option, but num is in  megabytes (1024 x 1024 bytes) rather than blocks. Thus, -m num is equivalent to -c num x 1024 x 1024.<br /><br />
+
+<b>-n [+/-]num</b><br />
+<b>+/-[num]n</b><br />
+is similar to the b option, but num is in lines rather than blocks.<br /><br />
+
+<b>-num</b><br />
+displays the last num lines of the file.<br /><br />
+<b>+num</b><br />
+displays the file beginning with its numth line.<br /><br />
+
+<b><font style="font-size: 12pt">Examples</font></b><br /><br />
+
+These 4 commands all display the last 10 bytes of a file:<br /><br />
+tail -c10 filename<br />
+tail -c -10 filename<br />
+tail -10c filename<br />
+tail -c filename<br /><br />
+
+These 3 commands all display a file beginning with its 10th byte:<br /><br />
+
+tail -c +10 filename<br />
+tail +10c filename<br />
+tail +c filename<br /><br />
+
+<b><font style="font-size: 12pt">Diagnostics</font></b><br /><br />
+
+Possible exit status values are:<br /><br />
+
+<B>0</B><br />
+Successful completion.<br /><br />
+<B>1</B><br />
+Failure due to any of the following:<br /><br />
+* insufficient memory<br />
+* write error on the standard output<br />
+* badly formed line or byte count<br />
+* missing number after an option<br />
+* error re-opening a file descriptor<br /><br />
+<B>2</B><br />
+Failure due to an unknown command line option.<br /><br />
+
+<B>Messages</B>
+
+<B>Badly formed line/byte count "string"</B><br />
+In an option of the form -n num or -num, the num was not a valid number.<br /><br />
+<b>Re-opening file descriptor "num"</b><br />
+-f was used to follow a file as it grows. tail closed the file associated with the given file descriptor num then tried to open it two seconds later. At this point, tail found it could not re-open the file for reading and, therefore, could not follow the file any longer.
+</font>
+</body>
+</html>

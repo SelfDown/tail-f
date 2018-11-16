@@ -1,0 +1,35 @@
+tail for Windows License Agreement
+____________________________________________________________
+
+1. NO WARRANTY
+
+tail for Windows IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+2. Evaluation and Purchase
+
+tail for Windows is not free software. You may use this software for evaluation purposes without charge for a period of 16 days. If you find it useful and want to use this software after the 16 days evaluation period, you must buy the license.
+
+3. Distribution of the Evaluation Version
+
+You may copy the evaluation version of this software and documentation as you wish, and give exact copies of the original evaluation version to anyone, and distribute the evaluation version of the software and documentation in its unmodified form via electronic means. But you should not charge or requesting donations for any such copies however made and from distributing the software and/or documentation with other products without the author's written permission.
+
+
+4. License Introduction
+
+* tail for Windows is distributed as Shareware. You can freely download and try the evaluation version.
+
+* For the non-programmers, tail for Windows provides the Single License (1 PC), Personal License (3 PCs), Home License (10 PCs), Team License (100 PCs) and Enterprise License (Unlimited PCs) for your choice, please choose the appropriate license to meet your requirement.
+  # Single License (1 PC): licensed to yourself, you (individual) can use the licensed copy on your own 1 PC at most.
+  # Personal License (3 PCs): licensed to yourself, you (individual) can use the licensed copy on your own 3 PCs at most.
+  # Home License (10 PCs): licensed to your family, you and your family members can use the licensed copy on your own 10 PCs at most.
+  # Team License (100 PCs): licensed to your organization or team, your organization/team members can use the licensed copy on your own 100 PCs at most.
+  # Enterprise License (Unlimited PCs): licensed to your organization, your organization members can use the licensed copy on ALL your own PCs.
+  # For current price information, please visit its order page at
+    http://www.trisunsoft.com/order-tw.htm
+
+* For the software developers/companies, tail for Windows provides the Personal License, Enterprise License and Commercial License for your choice, please choose the appropriate license to meet your requirement.
+  # Personal License: for a SINGLE developer to develop and distribute the COMMERCIAL/NONCOMMERCIAL applications/scripts for yourself or EXTERNAL purpose.
+  # Enterprise License: for your enterprise (UNLIMITED developers) to develop and distribute the NONCOMMERCIAL applications/scripts for INTERNAL purpose.
+  # Commercial License: for your enterprise (UNLIMITED developers) to develop and distribute the COMMERCIAL/NONCOMMERCIAL applications/scripts for INTERNAL and EXTERNAL purposes.  
+  # For current price information, please visit its order page at
+    http://www.trisunsoft.com/order-tw-dev.htm
