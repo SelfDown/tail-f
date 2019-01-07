@@ -11,3 +11,7 @@ RunHiddenConsole.exe 让cmd窗口在后台运行，隐藏cmd窗口
 openIE.reg   ,在谷歌浏览器中打开IE的注册文件
 
 test.html 示例
+
+开机启动 运行输入 shell:Startup
+
+将cmd 放入这个文件夹既可以
